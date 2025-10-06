@@ -30,3 +30,51 @@ From line 60, column 13; to line 60, column 15
 
 * <!-- <p>You need enough content to thoroghly populate your page. The content should cause the page to be long enough to need to scroll. Keep copy/pasting content from Wikipedia until you have enough content to scroll. You will use this page later to embellish it with styles, color, formatting and layouts.</p> -->
   <p>You need enough content to thoroughly populate your page. The content should cause the page to be long enough to need to scroll. Keep copy/pasting content from Wikipedia until you have enough content to scroll. You will use this page later to embellish it with styles, color, formatting and layouts.</p>  
+
+---------------------
+
+## CSS Errors and Warnings
+### STYLE.CSS
+
+* <!-- color: #B2; --> 
+color: #B2D732;
+
+* <!-- font-size: 5 vw; -->
+font-size: 5vw;
+
+* <!-- line-height: 1.35me; -->
+line-height: 1.35em;
+
+
+<!-- 
+.error {
+	color: #FE27122;
+} -->
+.error {
+	color: #FE2712;
+}
+
+<!-- text-decoration: all;} -->
+text-decoration: underline;
+
+
+### LAYOUT.CSS
+
+<!-- 
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    padding: 0 10px;
+  }
+} -->
+
+}
+aside dt {
+    font-weight: bold;
+  }
+
+aside dd {
+    padding: 0 10px;
+  }
